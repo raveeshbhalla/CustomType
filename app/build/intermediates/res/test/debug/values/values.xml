@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/Users/Raveesh/Workspace/RobotoTextGradle/app/build/intermediates/bundles/debug/res/values/values.xml -->
+    <eat-comment />
+
+    <declare-styleable name="TextView">
+        <attr name="typface" format="string" />
+    </declare-styleable>
+
+</resources>
