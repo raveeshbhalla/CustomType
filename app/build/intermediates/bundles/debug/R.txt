@@ -1,3 +1,0 @@
-int attr typface 0x7f010000
-int[] styleable TextView { 0x7f010000 }
-int styleable TextView_typface 0

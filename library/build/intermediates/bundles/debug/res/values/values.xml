@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/Users/Raveesh/Workspace/RobotoTextGradle/library/src/main/res/values/attrs.xml -->
+    <eat-comment />
+
+    <declare-styleable name="TextView">
+        <attr name="typface" format="string" />
+    </declare-styleable>
+    <!-- From: file:/Users/Raveesh/Workspace/RobotoTextGradle/library/src/main/res/values/dimens.xml -->
+    <eat-comment />
+
+    <dimen name="typesize_body1">12sp</dimen>
+    <dimen name="typesize_body2">14sp</dimen>
+    <dimen name="typesize_button">14sp</dimen>
+    <dimen name="typesize_caption">12sp</dimen>
+    <dimen name="typesize_display1">34sp</dimen>
+    <dimen name="typesize_display2">45sp</dimen>
+    <dimen name="typesize_display3">56sp</dimen>
+    <dimen name="typesize_display4">112sp</dimen>
+    <dimen name="typesize_headline">24sp</dimen>
+    <dimen name="typesize_menu">14sp</dimen>
+    <dimen name="typesize_subhead">16sp</dimen>
+    <dimen name="typesize_title">20sp</dimen>
+
+</resources>
