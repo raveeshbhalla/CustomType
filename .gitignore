@@ -1,0 +1,12 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea
+build
+gradle
+library/build
+library/library.iml
+gradle.properties
+gradlew
+gradlew.bat
+local.properties
+maven_push.gradle
+RobotoTextGradle.iml

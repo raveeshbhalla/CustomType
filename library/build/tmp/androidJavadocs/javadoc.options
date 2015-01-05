@@ -1,7 +1,0 @@
--classpath '/Users/Raveesh/android/sdk/platforms/android-19/android.jar'
--d '/Users/Raveesh/Workspace/RobotoTextGradle/library/build/docs/javadoc'
--doctitle 'library API'
--quiet 
--windowtitle 'library API'
-'/Users/Raveesh/Workspace/RobotoTextGradle/library/src/main/java/in/raveesh/customtype/Roboto.java'
-'/Users/Raveesh/Workspace/RobotoTextGradle/library/src/main/java/in/raveesh/customtype/TextView.java'
