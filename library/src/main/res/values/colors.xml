@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="text_primary_light">#dd000000</color>
+    <color name="text_secondary_light">#89000000</color>
+    <color name="text_disabled_light">#42000000</color>
+    <color name="background_light">#eeeeee</color>
+</resources>

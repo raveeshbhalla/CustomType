@@ -1,0 +1,42 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/background_light">
+
+    <in.raveesh.customtype.TextView
+        android:text="@string/lorem_ipsum_short"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:typeface="fonts/RobotoCondensed/Light.ttf"
+        android:textSize="@dimen/typesize_headline"
+        android:textColor="@color/text_primary_light"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+
+    <in.raveesh.customtype.TextView
+        android:text="@string/lorem_ipsum_medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:typeface="fonts/Roboto/LightItalic.ttf"
+        android:textSize="@dimen/typesize_subhead"
+        android:textColor="@color/text_secondary_light"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+
+    <in.raveesh.customtype.TextView
+        android:id="@+id/body"
+        android:text="@string/lorem_ipsum_long"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:typeface="fonts/Roboto/Medium.ttf"
+        android:textSize="@dimen/typesize_caption"
+        android:textColor="@color/text_disabled_light"/>
+
+</LinearLayout>
