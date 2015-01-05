@@ -4,7 +4,6 @@ build
 gradle
 library/build
 library/library.iml
-gradle.properties
 gradlew
 gradlew.bat
 local.properties

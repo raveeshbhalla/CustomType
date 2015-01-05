@@ -1,13 +1,13 @@
 apply plugin: 'com.android.library'
+apply plugin: 'android-library'
 android {
     compileSdkVersion 21
     buildToolsVersion '21.0.2'
 
     defaultConfig {
-        targetSdkVersion Integer.parseInt(project.ANDROID_BUILD_TARGET_SDK_VERSION)
+        targetSdkVersion 21
     }
 }
-apply from: 'https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle'
 
 dependencies {
 }
