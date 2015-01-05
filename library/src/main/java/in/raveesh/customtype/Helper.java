@@ -1,4 +1,4 @@
-package customtype;
+package in.raveesh.customtype;
 
 import java.util.HashMap;
 

@@ -1,4 +1,4 @@
-package customtype;
+package in.raveesh.customtype;
 
 import android.content.Context;
 import android.util.AttributeSet;
