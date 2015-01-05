@@ -8,7 +8,6 @@ gradle.properties
 gradlew
 gradlew.bat
 local.properties
-maven_push.gradle
 RobotoTextGradle.iml
 demo/build
 demo/demo.iml
