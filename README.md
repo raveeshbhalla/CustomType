@@ -24,9 +24,9 @@ What you're looking to do is set app:typeface to the path to the typeface file i
 
 2. Via JAVA:
 ==============
-The Helper.getTypeface() method returns a typeface object that you can apply to any view that supports the setTypeface() method. Example code
+The FontManager.getTypeface() method returns a typeface object that you can apply to any view that supports the setTypeface() method. You do not need to use the bundled custom TextView or EditText for this. Example code
 
-    tv.setTypeface(this,"folder/typeface.ttf");
+    tv.setTypeface(FontManager.getTypeface(this,"folder/typeface.ttf"));
     
 
 Do note: the font file must be present within your projects assets folder.
