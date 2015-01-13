@@ -37,7 +37,7 @@ The library comes with additional resources, including the text sizes in line wi
 
 How to use the library
 =====================
-Download the .aar file from the project root and place it in your libs folder. After that, add the following to your build.gradle
+[Download the .aar file](https://github.com/raveeshbhalla/CustomType/raw/master/in.raveesh.customtype.aar) from the project root and place it in your libs folder. After that, add the following to your build.gradle
 
     repositories{
         flatDir{
