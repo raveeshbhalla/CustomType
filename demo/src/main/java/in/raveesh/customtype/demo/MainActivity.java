@@ -7,7 +7,7 @@ import android.view.MenuItem;
 
 import java.util.Random;
 
-import in.raveesh.customtype.Helper;
+import in.raveesh.customtype.CustomType;
 import in.raveesh.customtype.TextView;
 
 
@@ -48,13 +48,13 @@ public class MainActivity extends ActionBarActivity {
         Random random = new Random();
         switch (random.nextInt(3)){
             case 0:
-                body.setTypeface(Helper.getTypeface(this,"fonts/RobotoCondensed/Light.ttf"));
+                body.setTypeface(CustomType.getTypeface(this, "fonts/RobotoCondensed/Light.ttf"));
                 break;
             case 1:
-                body.setTypeface(Helper.getTypeface(this,"fonts/Roboto/LightItalic.ttf"));
+                body.setTypeface(CustomType.getTypeface(this,"fonts/Roboto/LightItalic.ttf"));
                 break;
             case 2:
-                body.setTypeface(Helper.getTypeface(this,"fonts/Roboto/Medium.ttf"));
+                body.setTypeface(CustomType.getTypeface(this,"fonts/Roboto/Medium.ttf"));
                 break;
         }
     }
