@@ -5,7 +5,7 @@ import java.util.HashMap;
 import android.content.Context;
 import android.graphics.Typeface;
 
-public class FontManager {
+public class CustomType {
 
 	private static HashMap<String, Typeface> typefaces = new HashMap<String, Typeface>();
 	public static Typeface getTypeface(Context context, String path){

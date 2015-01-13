@@ -17,7 +17,7 @@ public class EditText extends android.widget.EditText {
                 String typeface = attrs.getAttributeValue(i);
                 if (!isInEditMode()) {
                     try {
-                        setTypeface(FontManager.getTypeface(context, typeface));
+                        setTypeface(CustomType.getTypeface(context, typeface));
                     } catch (RuntimeException e) {
                         e.printStackTrace();
                     }
