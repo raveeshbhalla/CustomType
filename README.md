@@ -41,3 +41,8 @@ Add the following line to your build.gradle dependencies
 
     compile 'in.raveesh:customtype:1.0.0'
 
+Apps Using Customtype
+======================
+* [Haptik](https://play.google.com/store/apps/details?id=co.haptik)
+
+Is your app using Customtype? Submit a pull request to list it here, or tweet out to me at [@raveeshbhalla](https://twitter.com/raveeshbhalla)
