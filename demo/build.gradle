@@ -19,14 +19,7 @@ android {
     }
 }
 
-repositories{
-    flatDir{
-        dirs 'libs'
-    }
-}
-
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:21.0.2'
-    compile 'in.raveesh.customtype:in.raveesh.customtype@aar'
+    compile 'in.raveesh:customtype:1.0.0'
 }

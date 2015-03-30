@@ -11,3 +11,4 @@ RobotoTextGradle.iml
 demo/build
 demo/demo.iml
 .gradle/
+gradle.properties
