@@ -37,15 +37,7 @@ The library comes with additional resources, including the text sizes in line wi
 
 How to use the library
 =====================
-[Download the .aar file](https://github.com/raveeshbhalla/CustomType/raw/master/in.raveesh.customtype.aar) from the project root and place it in your libs folder. After that, add the following to your build.gradle
+Add the following line to your build.gradle dependencies
 
-    repositories{
-        flatDir{
-            dirs 'libs'
-        }
-    }
-
-    dependencies {
-        compile 'in.raveesh.customtype:in.raveesh.customtype@aar'
-    }
+    compile 'in.raveesh:customtype:1.0.0'
 
