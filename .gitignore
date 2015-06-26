@@ -12,3 +12,4 @@ demo/build
 demo/demo.iml
 .gradle/
 gradle.properties
+RobotoText.iml

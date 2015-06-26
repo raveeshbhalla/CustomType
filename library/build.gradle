@@ -1,15 +1,17 @@
 apply plugin: 'com.android.library'
 apply plugin: 'android-library'
 android {
-    compileSdkVersion 21
-    buildToolsVersion '21.0.2'
+    compileSdkVersion 22
+    buildToolsVersion '22.0.1'
 
     defaultConfig {
-        targetSdkVersion 21
+        targetSdkVersion 22
+        minSdkVersion 7
     }
 }
 
 dependencies {
+    compile 'com.android.support:design:22.2.0'
 }
 
 apply from: '../maven.gradle'
