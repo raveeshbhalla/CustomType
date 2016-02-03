@@ -14,4 +14,4 @@ dependencies {
     compile 'com.android.support:design:22.2.0'
 }
 
-apply from: '../maven.gradle'
+//apply from: '../maven.gradle'

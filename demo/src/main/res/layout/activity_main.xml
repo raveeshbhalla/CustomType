@@ -16,7 +16,7 @@
         android:text="@string/lorem_ipsum_short"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:typeface="fonts/RobotoCondensed/Light.ttf"
+        app:customtypeface="fonts/RobotoCondensed/Light.ttf"
         android:textSize="@dimen/typesize_headline"
         android:textColor="@color/text_primary_light"
         android:layout_marginBottom="@dimen/activity_vertical_margin"/>
@@ -25,7 +25,7 @@
         android:text="@string/lorem_ipsum_medium"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:typeface="fonts/Roboto/LightItalic.ttf"
+        app:customtypeface="fonts/Roboto/LightItalic.ttf"
         android:textSize="@dimen/typesize_subhead"
         android:textColor="@color/text_secondary_light"
         android:layout_marginBottom="@dimen/activity_vertical_margin"/>
@@ -35,7 +35,7 @@
         android:text="@string/lorem_ipsum_long"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:typeface="fonts/Roboto/Medium.ttf"
+        app:customtypeface="fonts/Roboto/Medium.ttf"
         android:textSize="@dimen/typesize_caption"
         android:textColor="@color/text_disabled_light"/>
 

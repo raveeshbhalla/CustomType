@@ -11,7 +11,7 @@ public class TextView extends android.widget.TextView {
 			/**
 			 * Searching for the typeface attribute
 			 */
-			if (attrs.getAttributeName(i).equals("typeface")) {
+			if (attrs.getAttributeName(i).equals("customtypeface")) {
 				String typeface = attrs.getAttributeValue(i);
 				if (!isInEditMode()) {
 					try {
